@@ -1,0 +1,24 @@
+{
+  "Altair": {
+    "midi": "./midi/Altair.mid",
+    "kana": "./kana/Altair.txt",
+    "audio": "./audio/Altair.mp3",
+    "image": {
+      "A":             "./images/mouth/a.png",
+      "I":             "./images/mouth/i.png",
+      "CORONAL_I":     "./images/mouth/coronal-i.png",
+      "U":             "./images/mouth/u.png",
+      "CORONAL_U":     "./images/mouth/coronal-u.png",
+      "E":             "./images/mouth/e.png",
+      "O":             "./images/mouth/o.png",
+      "SCHWA":         "./images/mouth/schwa.png",
+      "CORONAL_SCHWA": "./images/mouth/coronal-schwa.png",
+      "SHUT":          "./images/mouth/shut.png"
+    },
+    "others": [
+      "./images/layer/eye_open.png",
+      "./images/layer/eye_close.png",
+      "./images/layer/hand.png"
+    ]
+  }
+}

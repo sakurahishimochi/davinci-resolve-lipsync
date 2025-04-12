@@ -4,11 +4,13 @@ DaVinci Resolve のプロジェクト上にメディアファイルを読み込�
 
 メディアファイルの内容は、`res` ディレクトリ以下のサンプルデータを参考にしてください。
 
-## 動作確認環境
+## 動作要件
 
-- Python 3.12
 - DaVinci Resolve 16 以降
-- 依存パッケージ: mido 1.3 系
+- Python 3.12
+  - DaVinci Resolve の Scripting ライブラリへのパスが通っていること
+  - 依存パッケージ: mido 1.3 系
+- 環境変数 `RESOLVE_SCRIPT_LIB`・`RESOLVE_SCRIPT_API` が適切に設定されていること
 
 ## 使い方
 
